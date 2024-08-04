@@ -15,7 +15,7 @@ body {
     height: 100vh;
     background-image: url("background.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 .container {
@@ -411,8 +411,22 @@ nav .fas {
         display: block;
         margin: 25px;
     }
+    #about img{
+        margin-bottom:30px ; 
+    }
+    .sub-title{
+        margin-bottom: 30px ; 
+    }
+    .about-col-2 > p{
+     margin-bottom: 100px ; 
+    }
+    .email-id{
+        font-size: 13px ; 
+    }
 
 }
+
+
 
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
